@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <title>Rock, Paper, Scissors</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter%3A700"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A700"/>
+  <link rel="stylesheet" href="./styles/ropasc.css"/>
+  <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css"/>
+  <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+  
+  
+</head>
+<body>
+  <py-script>
+    import random
+
+    def prog_choice():
+        x=random.randint(1,3)
+        match x:
+            case 1: return "rock"
+            case 2: return "paper"
+            case 3: return "scissors"
+
+    def result(pc,b):
+        if pc=="rock":
+            if b=="scissors" :
+                res="you lose!"
+            elif b=="paper":
+                res="you win!"
+            else:
+                res="draw"
+        elif pc=="scissors":
+            if b=="paper" :
+                res="you lose!"
+            elif b=="rock":
+                res="you win!"
+            else:
+                res="draw"
+        else:
+            if b=="rock" :
+                res="you lose!"
+            elif b=="scissors":
+                res="you win!"
+            else:
+                res="draw"
+        return res
+
+    def paper(*ags, **kws):
+        user="paper"
+        pc=prog_choice()
+        pyscript.write("chose", pc)
+        res=result(pc,user)
+        pyscript.write("res", res)
+        
+    def scissors(*ags, **kws):
+        user="scissors"
+        pc=prog_choice()
+        pyscript.write("chose", pc)
+        res=result(pc,user)
+        pyscript.write("res", res)
+        
+
+    def rock(*ags, **kws):
+        user="rock"
+        pc=prog_choice()
+        pyscript.write("chose", pc)
+        res=result(pc,user)
+        pyscript.write("res", res)
+
+  </py-script>
+<div class="ropasc-z1q">
+  <div class="rock-paper-scissors-kQK">
+  Rock, Paper, Scissors
+  <br/>
+  
+  </div>
+  <div class="buttons-BEj">
+    <div class="rockicon-aAP"><button id="rock" pys-onClick="rock">✊🏻</button></div>
+    <div class="group-2-AeP"><button id="paper" pys-onClick="paper">✋🏻</button></div>
+    <div class="scissorsicon-Ffq"><button id="scissors" pys-onClick="scissors">✌🏻</button></div>
+  </div>
+  <div class="group-5-EXm">
+    <div class="group-3-n3V">
+      <div class="the-game-chose--hw9">the game chose:</div>
+      <div class="games-choice-1gw"><p class="aff" name="chose" id="chose"></p></div>
+    </div>
+    <div class="group-4-92T">
+      <div class="the-result--sj9">the result:</div>
+      <div class="result-Nfu"><p class="aff" name="res" id="res"></p></div>
+    </div>
+  </div>
+</div>
+</body>

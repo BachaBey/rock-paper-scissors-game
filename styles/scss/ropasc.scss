@@ -1,0 +1,176 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+}.ropasc-z1q {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  width: 100%;
+  align-items: center;
+  padding: 12.35rem 4.4rem 7.7rem 4.4rem;
+
+  .rock-paper-scissors-kQK {
+    justify-content: center;
+    font-size: 10rem;
+    font-weight: 700;
+    color: #de1212;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    margin: 0rem 0rem 13.45rem 7.7rem;
+    display: flex;
+    align-items: center;
+    line-height: 1.2125;
+    font-style: italic;
+    flex-shrink: 0;
+  }
+  .buttons-BEj {
+    align-items: center;
+    flex-shrink: 0;
+    margin: 0rem 17.1rem 7.8rem 17.1rem;
+    width: calc(100% - 34.2rem);
+    height: 20rem;
+    display: flex;
+    column-gap: 20.5rem;
+
+    .rockicon-aAP {
+      width: 20rem;
+      color: #000000;
+      white-space: nowrap;
+      background-color: rgba(0, 0, 0, 0.7900000215);
+      font-size: 10rem;
+      line-height: 1.2125;
+      flex-shrink: 0;
+      display: flex;
+      font-weight: 700;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+      font-style: italic;
+      font-family: Inter, 'Source Sans Pro';
+      border-radius: 10rem;
+    }
+    .group-2-AeP {
+      width: 20rem;
+      white-space: nowrap;
+      justify-content: center;
+      font-size: 10rem;
+      line-height: 1.2125;
+      border-radius: 10rem;
+      flex-shrink: 0;
+      height: 100%;
+      font-weight: 700;
+      font-style: italic;
+      color: #000000;
+      font-family: Inter, 'Source Sans Pro';
+      background-color: rgba(0, 0, 0, 0.7900000215);
+      display: flex;
+      align-items: center;
+    }
+    .scissorsicon-Ffq {
+      width: 20rem;
+      font-weight: 700;
+      color: #000000;
+      font-size: 10rem;
+      background-color: rgba(0, 0, 0, 0.7900000215);
+      border-radius: 10rem;
+      display: flex;
+      align-items: center;
+      line-height: 1.2125;
+      font-style: italic;
+      height: 100%;
+      justify-content: center;
+      font-family: Inter, 'Source Sans Pro';
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+  }
+  .group-5-EXm {
+    flex-direction: column;
+    border-radius: 5rem;
+    flex-shrink: 0;
+    margin-right: 9.7rem;
+    width: 125.5rem;
+    align-items: center;
+    display: flex;
+
+    .group-3-n3V {
+      flex-shrink: 0;
+      margin-bottom: 7.1rem;
+      box-sizing: border-box;
+      padding-left: 3.65rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      border-radius: 5rem;
+
+      .the-game-chose--hw9 {
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        font-style: italic;
+        font-family: Inter, 'Source Sans Pro';
+        white-space: nowrap;
+        margin: 0rem 1.35rem 0.3rem 0rem;
+        display: flex;
+        color: #000000;
+        flex-shrink: 0;
+        font-weight: 700;
+        line-height: 1.2125;
+      }
+      .games-choice-1gw {
+        width: 80rem;
+        height: 10rem;
+        background-color: #d9d9d9;
+        border-radius: 5rem;
+        flex-shrink: 0;
+      }
+    }
+    .group-4-92T {
+      align-items: center;
+      border-radius: 5rem;
+      flex-shrink: 0;
+      box-sizing: border-box;
+      padding: 1.751rem 0rem 0.049rem 7.55rem;
+      width: 100%;
+      display: flex;
+
+      .the-result--sj9 {
+        font-family: Inter, 'Source Sans Pro';
+        white-space: nowrap;
+        justify-content: center;
+        line-height: 1.2125;
+        color: #000000;
+        font-size: 5rem;
+        font-weight: 700;
+        font-style: italic;
+        flex-shrink: 0;
+        margin: 0rem 13.05rem 1.703rem 0rem;
+        display: flex;
+        align-items: center;
+      }
+      .result-Nfu {
+        height: 10rem;
+        background-color: #d9d9d9;
+        border-radius: 5rem;
+        flex-shrink: 0;
+        width: 80rem;
+      }
+    }
+  }
+}
